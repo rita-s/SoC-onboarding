@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Circular';
+    unicode-range: U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Light-bdfb98485e7836ba31b456f65cded088.woff2') format('woff2'),
+    url('https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Light-a188841af78481a25b7bb2316a5f5716.woff') format('woff');
+    font-display: swap;
+}
+
+body {
+    font-family: 'Circular', Arial, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+
+@font-face {
+    font-family: 'Circular';
+    unicode-range: U+0000-03FF, U+0500-058F, U+0700-074F, U+0780-FAFF, U+FE00-FE6F, U+FF00-EFFFF, U+FFFFE-10FFFF;
+    font-weight: 300;  /* Light weight */
+    font-style: normal;
+    src: url('https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Light-bdfb98485e7836ba31b456f65cded088.woff2') format('woff2'),
+    url('https://a0.muscache.com/airbnb/static/airbnb-dls-web/build/fonts/Airbnb_Cereal-Light-a188841af78481a25b7bb2316a5f5716.woff') format('woff');
+    font-display: swap;
+}
+
+body {
+    font-family: 'Circular', Arial, sans-serif;
+    font-weight: 300;  /* Ensure all text uses light weight */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;  /* Adjusted padding for more space around */
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 10px 20px;  /* Adjusted padding for better spacing */
+    background-color: #f2f2f2;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
+}
+
+.search-icon {
+    font-size: 1.5em;
+    color: gray;
+}
+
+.search-text {
+    flex-grow: 1;
+    padding: 0 10px;
+    font-size: 1em;
+    color: black;  /* Dark text for better readability */
+}
+
+.search-filters {
+    color: gray;
+    font-size: 0.9em;
+}
+
+
+.top-icon-slider {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px 0;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.slider {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.icon-item img {
+    margin-bottom: 5px;
+}
+
+.icon-item .text {
+    font-size: 0.8em;
+}
+
+.experiences, .past-experiences {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.experience {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.experience-photo {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.experience-details {
+    padding: 15px;
+}
+
+.experience-title {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.experience-host, .booking-info, .sold-out {
+    color: gray;
+    font-size: 0.9em;
+}
+
+.support, .hosting, .airbnb-info {
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.support h2, .hosting h2, .airbnb-info h2 {
+    font-family: 'Circular', Arial, sans-serif;
+    font-weight: 300; /* Light weight */
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.support ul, .hosting ul, .airbnb-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.support ul li, .hosting ul li, .airbnb-info ul li {
+    margin: 5px 0;
+    font-family: 'Circular', Arial, sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.footer-item {
+    margin: 5px 10px;
+    font-size: 0.9em;
+}
+
+.fixed-icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #ddd;
+}
+
+.fixed-icons .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.fixed-icons .icon img {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.fixed-icons .icon:hover {
+    color: #000;
+}
