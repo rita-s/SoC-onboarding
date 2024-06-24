@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Airbnb Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+<!--
+SECTION 1: Search bar
+Icon
+Where to?
+Anywhere - Any week - Add guests
+------
+SECTION 2: Top-Icon-Slider:
+#icons are in a form of a slider. "-" shows only a space between icon unless is combined words. There is an icon and a text beneath it.
+Icons - Beachfront - Cabine - Amazing pools - Design - Play - OMG! - Amazing views - Farms - National parks - Castles - Countryside - Off-the-grid - Mansions - Treehouse - Lakefront - Trending - Shepherd's huts - Camping - Tiny homes - Boats - Tropical - Luxe - Vineyards - Islands - Lake - Top cities - Barns - Historical homes - New - Caves - Houseboats - Ski-in/out - Top of the world - Earth homes - Yurts - Riads - Rooms - Grand pianos - Bed & breakfast - Containers - Creative spaces - Surfing - Domes - Golfing - A-frames - Arctic - Cycladic homes - Towers - Windmils - Skiing - Adapted - Chef's kitchens - Desert - Trulli - Hanoks - Dammusi - Ryokans - Casas particulares - Minsus - Campervans - Beach
+-------
+SECTION 3: Experiences
+Square Photo
+Title
+Host
+Booking info
+------
+SECTION 4: Past Experiences
+Square Photo
+Title
+Sold out
+------
+SECTION 5: Support
+Help Centre
+Get help with a safety issue
+AirCover
+Anti-discrimination
+Disability support
+Cancellation options
+Report neighbourhood concern
+------
+SECTION 6: Hosting
+Airbnb your home
+AirCover for Hosts
+Hosting resources
+Community forum
+Hosting responsibly
+Join a free Hosting class
+------
+SECTION 7: Airbnb
+Newsroom
+New features
+Careers
+Investors
+Gift cards
+Airbnb.org emergency stays
+------
+SECTION 8: Footer
+English (GB)
+Choose a currency
+£
+GBP
+© 2024 Airbnb, Inc.
+Privacy - Terms - Sitemap - UK Modern Slavery Act - Company details - Airbnb UK Limited S.172 Statement
+------
+SECTION 9: Fixed icons
+Explore - Wishlist - Trips - Messages - Profile
+
+-->
+
+
+
+<!-- SECTION 1: Search Bar -->
+<section class="search-bar">
+    <div class="search-container">
+        <div class="search-icon">🔍</div>
+        <div class="search-text">Where to?</div>
+        <div class="search-filters">Anywhere • Any week • Add guests</div>
+    </div>
+</section>
+
+<!-- SECTION 2: Top-Icon-Slider -->
+<section class="top-icon-slider">
+    <div class="slider">
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Beachfront Icon">
+            <div class="text">Beachfront</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Cabine Icon">
+            <div class="text">Cabine</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Amazing Pools Icon">
+            <div class="text">Amazing pools</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Design Icon">
+            <div class="text">Design</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Play Icon">
+            <div class="text">Play</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="OMG Icon">
+            <div class="text">OMG!</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Amazing Views Icon">
+            <div class="text">Amazing views</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Farms Icon">
+            <div class="text">Farms</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="National Parks Icon">
+            <div class="text">National parks</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Castles Icon">
+            <div class="text">Castles</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Countryside Icon">
+            <div class="text">Countryside</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Off-the-grid Icon">
+            <div class="text">Off-the-grid</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Mansions Icon">
+            <div class="text">Mansions</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Treehouse Icon">
+            <div class="text">Treehouse</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Lakefront Icon">
+            <div class="text">Lakefront</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Trending Icon">
+            <div class="text">Trending</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Shepherd's Huts Icon">
+            <div class="text">Shepherd's huts</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Camping Icon">
+            <div class="text">Camping</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Tiny Homes Icon">
+            <div class="text">Tiny homes</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Boats Icon">
+            <div class="text">Boats</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Tropical Icon">
+            <div class="text">Tropical</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Luxe Icon">
+            <div class="text">Luxe</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Vineyards Icon">
+            <div class="text">Vineyards</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Islands Icon">
+            <div class="text">Islands</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Lake Icon">
+            <div class="text">Lake</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Top Cities Icon">
+            <div class="text">Top cities</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Barns Icon">
+            <div class="text">Barns</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Historical Homes Icon">
+            <div class="text">Historical homes</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="New Icon">
+            <div class="text">New</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Caves Icon">
+            <div class="text">Caves</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Houseboats Icon">
+            <div class="text">Houseboats</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Ski-in/out Icon">
+            <div class="text">Ski-in/out</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Top of the World Icon">
+            <div class="text">Top of the world</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Earth Homes Icon">
+            <div class="text">Earth homes</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Yurts Icon">
+            <div class="text">Yurts</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Riads Icon">
+            <div class="text">Riads</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Rooms Icon">
+            <div class="text">Rooms</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Grand Pianos Icon">
+            <div class="text">Grand pianos</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Bed & Breakfast Icon">
+            <div class="text">Bed & breakfast</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Containers Icon">
+            <div class="text">Containers</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Creative Spaces Icon">
+            <div class="text">Creative spaces</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Surfing Icon">
+            <div class="text">Surfing</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Domes Icon">
+            <div class="text">Domes</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Golfing Icon">
+            <div class="text">Golfing</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="A-frames Icon">
+            <div class="text">A-frames</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Arctic Icon">
+            <div class="text">Arctic</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Cycladic Homes Icon">
+            <div class="text">Cycladic homes</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Towers Icon">
+            <div class="text">Towers</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Windmils Icon">
+            <div class="text">Windmils</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Skiing Icon">
+            <div class="text">Skiing</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Adapted Icon">
+            <div class="text">Adapted</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Chef's Kitchens Icon">
+            <div class="text">Chef's kitchens</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Desert Icon">
+            <div class="text">Desert</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Trulli Icon">
+            <div class="text">Trulli</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Hanoks Icon">
+            <div class="text">Hanoks</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Dammusi Icon">
+            <div class="text">Dammusi</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Ryokans Icon">
+            <div class="text">Ryokans</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Casas Particulares Icon">
+            <div class="text">Casas particulares</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Minsus Icon">
+            <div class="text">Minsus</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Campervans Icon">
+            <div class="text">Campervans</div>
+        </div>
+        <div class="icon-item">
+            <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Beach Icon">
+            <div class="text">Beach</div>
+        </div>
+    </div>
+</section>
+
+
+<!-- SECTION 3: Experiences -->
+<section class="experiences">
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NzY0ODgzNzUzNjQzNw%3D%3D/original/cda19e4c-ae11-47b1-831b-a29f94ab76dc.png?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Make core memories with Inside Out 2</div>
+            <div class="experience-host">Hosted by Joy</div>
+            <div class="booking-info">Booking closed</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4MzUyMzk5Mjc3MDU5Nw%3D%3D/original/ced15ffe-0ab5-48cf-a189-dbdeaaf04387.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Stay in Prince’s Purple Rain house</div>
+            <div class="experience-host">Hosted by Wendy and Lisa</div>
+            <div class="booking-info">Coming August</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4OTQ5ODA0MDcwMTE4Mw%3D%3D/original/4f7a276e-9995-4b32-bda6-300de0619b25.png?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Go VIP with Kevin Hart</div>
+            <div class="experience-host">Hosted by Kevin Hart</div>
+            <div class="booking-info">Coming August</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjMyMzc5Mzc2MTc3OTEzMg%3D%3D/original/01819c16-43a1-4aee-9957-9edce6eb8e16.png?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Join a living room session with Doja</div>
+            <div class="experience-host">Hosted by Doja Cat</div>
+            <div class="booking-info">Coming October</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MjI1MjI0NDQ0MzYzMjM4Mg%3D%3D/original/ae3426d1-fba4-44d4-bed2-690426f25f7a.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Live like Bollywood star Janhvi Kapoor</div>
+            <div class="experience-host">Hosted by Janhvi Kapoor</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjIzMTk3NDU3MjE4Nzg2NA%3D%3D/original/f4cbe542-3ce0-4c6f-a8f1-d2120c1b2420.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Go on tour with Feid</div>
+            <div class="experience-host">Hosted by Feid</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Game with Khaby Lame</div>
+            <div class="experience-host">Hosted by Khaby Lame</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE0ODQ2MDI1NTE4MDMzOTQ4MQ%3D%3D/original/c92634d0-4964-439a-905d-b9129af14d34.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Drift off in the Up house</div>
+            <div class="experience-host">Hosted by Carl Fredricksen</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTg2NzMzNDc0MDk1Nzg4NA%3D%3D/original/b676fc8d-8250-4df0-a7cb-728b0486e371.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Crash at the X-Mansion</div>
+            <div class="experience-host">Hosted by Jubilee</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA4NjI3OTI1MjIxNDQyOA%3D%3D/original/bc989f2d-eca8-4bcf-a9b0-b70b8e685a64.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Design your Incredibles Supersuit</div>
+            <div class="experience-host">Hosted by Edna Mode</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNjI0NzUwMDUwMTg2Mzg5MA%3D%3D/original/99417998-fa44-4c75-ae77-287c1468977b.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Wake up in the Musée d’Orsay</div>
+            <div class="experience-host">Hosted by Mathieu Lehanneur</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEzMTA3NzgxMzcwNzcxOTUzNQ%3D%3D/original/872f434b-9348-4ff1-8c6f-754fdbab4010.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Train at the X-Mansion</div>
+            <div class="experience-host">Hosted by Jubilee</div>
+            <div class="booking-info">Sold out</div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 4: Past Experiences -->
+<section class="past-experiences">
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyMzIwMTE1Njc3Njg0MTIzOQ%3D%3D/original/fb9dcb8d-7fa5-402f-91ae-fa2a26e9f097.png?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Open the Olympic Games at Musée d’Orsay</div>
+            <div class="experience-host">Hosted by Mathieu Lehanneur</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-881808599061267756/original/b16970cf-1d55-4edd-bb1f-e1735d0a228e.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Train at the X-Mansion</div>
+            <div class="experience-host">Hosted by Jubilee</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-857387972692815761/original/d106e0ef-f825-4ff8-baf7-86256a54fbd5.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Wake up in the Musée d’Orsay</div>
+            <div class="experience-host">Hosted by Mathieu Lehanneur</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-694055224756906854/original/76f85a0c-b3e2-4f1d-9aa9-d7838f2393c6.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Design your Incredibles Supersuit</div>
+            <div class="experience-host">Hosted by Edna Mode</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-782615921189136934/original/c67f78f1-5807-449a-9a88-753b7fa62d6a.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Barbie’s Malibu DreamHouse, Ken’s Way</div>
+            <div class="experience-host">Hosted by Ken</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-53274539/original/365299e3-f926-47ee-bcbf-606d6a0370b9.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Ted Lasso’s Favorite Pub</div>
+            <div class="experience-host">Hosted by Mae</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/be0957a9-da56-47d6-89ca-223b6e75321a.jpg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Houseplant Retreat</div>
+            <div class="experience-host">Hosted by Seth Rogen</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/miso/Hosting-53274539/original/365299e3-f926-47ee-bcbf-606d6a0370b9.jpeg?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">Home Alone Holiday</div>
+            <div class="experience-host">Hosted by Buzz</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+    <div class="experience">
+        <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyMzIwMTE1Njc3Njg0MTIzOQ%3D%3D/original/fb9dcb8d-7fa5-402f-91ae-fa2a26e9f097.png?im_w=1440&im_q=highq" alt="Experience Photo" class="experience-photo">
+        <div class="experience-details">
+            <div class="experience-title">The Last Blockbuster</div>
+            <div class="experience-host">Hosted by Sandi</div>
+            <div class="sold-out">Sold out</div>
+        </div>
+    </div>
+</section>
+
+
+<!-- SECTION 5: Support -->
+<section class="support">
+    <h2>Support</h2>
+    <ul>
+        <li class="support-item">Help Centre</li>
+        <li class="support-item">Get help with a safety issue</li>
+        <li class="support-item">AirCover</li>
+        <li class="support-item">Anti-discrimination</li>
+        <li class="support-item">Disability support</li>
+        <li class="support-item">Cancellation options</li>
+        <li class="support-item">Report neighbourhood concern</li>
+    </ul>
+</section>
+
+<!-- SECTION 6: Hosting -->
+<section class="hosting">
+    <h2>Hosting</h2>
+    <ul>
+        <li class="hosting-item">Airbnb your home</li>
+        <li class="hosting-item">AirCover for Hosts</li>
+        <li class="hosting-item">Hosting resources</li>
+        <li class="hosting-item">Community forum</li>
+        <li class="hosting-item">Hosting responsibly</li>
+        <li class="hosting-item">Join a free Hosting class</li>
+    </ul>
+</section>
+
+<!-- SECTION 7: Airbnb -->
+<section class="airbnb-info">
+    <h2>Airbnb</h2>
+    <ul>
+        <li class="airbnb-item">Newsroom</li>
+        <li class="airbnb-item">New features</li>
+        <li class="airbnb-item">Careers</li>
+        <li class="airbnb-item">Investors</li>
+        <li class="airbnb-item">Gift cards</li>
+        <li class="airbnb-item">Airbnb.org emergency stays</li>
+    </ul>
+</section>
+
+
+<!-- SECTION 8: Footer -->
+<footer class="footer">
+    <div class="footer-item">English (GB)</div>
+    <div class="footer-item">Choose a currency</div>
+    <div class="footer-item">£</div>
+    <div class="footer-item">GBP</div>
+    <div class="footer-item">© 2024 Airbnb, Inc.</div>
+    <div class="footer-item">Privacy</div>
+    <div class="footer-item">Terms</div>
+    <div class="footer-item">Sitemap</div>
+    <div class="footer-item">UK Modern Slavery Act</div>
+    <div class="footer-item">Company details</div>
+    <div class="footer-item">Airbnb UK Limited S.172 Statement</div>
+</footer>
+
+<!-- SECTION 9: Fixed Icons -->
+<section class="fixed-icons">
+    <div class="icon">
+        <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Explore Icon">
+        Explore
+    </div>
+    <div class="icon">
+        <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Explore Icon">
+        Wishlist
+    </div>
+    <div class="icon">
+        <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Explore Icon">
+        Trips
+    </div>
+    <div class="icon">
+        <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Explore Icon">
+        Messages
+    </div>
+    <div class="icon">
+        <img src="https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg" width="24" height="24" alt="Explore Icon">
+        Profile
+    </div>
+</section>
+
+
+</body>
+</html>
